@@ -1,0 +1,11 @@
+{
+  "name": "tadas-kacinskas-eu",
+  "private": true,
+  "description": "Personal website, static on GitHub Pages",
+  "scripts": {
+    "build": "esbuild main.js --minify --target=es2020 --outfile=main.min.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
